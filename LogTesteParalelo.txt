@@ -1,0 +1,77 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< br.ce.wcaquino:ProjetoBasico >--------------------
+[INFO] Building ProjetoBasico 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ProjetoBasico ---
+[INFO] Deleting C:\AndreAutomation\ProjetoBasico\ProjetoBasico\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ProjetoBasico ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ProjetoBasico ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to C:\AndreAutomation\ProjetoBasico\ProjetoBasico\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ProjetoBasico ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ProjetoBasico ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to C:\AndreAutomation\ProjetoBasico\ProjetoBasico\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ ProjetoBasico ---
+[INFO] Surefire report directory: C:\AndreAutomation\ProjetoBasico\ProjetoBasico\target\surefire-reports
+[INFO] parallel='all', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 32056
+Only local connections are allowed.
+jul 03, 2018 1:39:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Running br.ce.wcaquino.tests.ContaTest
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 16526Only local connections are allowed.jul 03, 2018 1:39:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 48752Only local connections are allowed.jul 03, 2018 1:39:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 48256Only local connections are allowed.jul 03, 2018 1:39:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 68.082 sec - in br.ce.wcaquino.tests.ContaTest
+Running br.ce.wcaquino.tests.MovimentacaoTest
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 37018Only local connections are allowed.jul 03, 2018 1:39:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 9536Only local connections are allowed.jul 03, 2018 1:39:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 6899Only local connections are allowed.jul 03, 2018 1:39:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.239 sec - in br.ce.wcaquino.tests.MovimentacaoTest
+Running br.ce.wcaquino.tests.RemoverMovimentacaoContaTest
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 18560Only local connections are allowed.jul 03, 2018 1:39:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.225 sec - in br.ce.wcaquino.tests.RemoverMovimentacaoContaTest
+Running br.ce.wcaquino.tests.SaldoTest
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 26646Only local connections are allowed.jul 03, 2018 1:39:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.056 sec - in br.ce.wcaquino.tests.SaldoTest
+Running br.ce.wcaquino.tests.ResumoTest
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 41552Only local connections are allowed.jul 03, 2018 1:40:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 39784Only local connections are allowed.jul 03, 2018 1:40:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.848 sec - in br.ce.wcaquino.tests.ResumoTest
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:08 min
+[INFO] Finished at: 2018-07-03T13:40:11-03:00
+[INFO] ------------------------------------------------------------------------
